@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newRoot>
+	<map>
+		<entry>
+			<e>
+				<string>
+					<e>Rechnungsbetrag</e>
+					<e>9999999</e>
+				</string>
+			</e>
+			<e>
+				<string>
+					<e>Datum</e>
+					<e>2.2.2013</e>
+				</string>
+			</e>
+			<e>
+				<string>
+					<e>IBAN</e>
+					<e>dkfns</e>
+				</string>
+			</e>
+			<e>
+				<string>
+					<e>Lieferant</e>
+					<e>ich</e>
+				</string>
+			</e>
+			<e>
+				<string>
+					<e>BIC</e>
+					<e>nfskdngf</e>
+				</string>
+			</e>
+		</entry>
+	</map>
+</newRoot>

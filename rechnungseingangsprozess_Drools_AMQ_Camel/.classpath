@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Activiti Designer Extensions"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-converter-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-converter-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-converter-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-layout-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-layout-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-layout-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-model-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-model-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-bpmn-model-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-camel-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-camel-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-camel-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-cdi.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-cdi-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-cdi-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-common-rest-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-common-rest-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-common-rest-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-crystalball-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-crystalball-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-crystalball-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-cxf-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-cxf-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-cxf-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-diagram-rest-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-diagram-rest-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-diagram-rest-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-engine-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-engine-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-engine-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-explorer-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-explorer-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-explorer-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-image-generator-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-image-generator-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-image-generator-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-jmx-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-jmx-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-jmx-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-json-converter-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-json-converter-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-json-converter-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-ldap-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-ldap-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-ldap-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-modeler-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-modeler-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-modeler-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-mule-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-mule-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-mule-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-osgi-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-osgi-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-osgi-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-process-validation-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-process-validation-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-process-validation-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-rest-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-rest-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-rest-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-simple-workflow-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-simple-workflow-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-simple-workflow-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-spring-5.21.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-spring-5.21.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/activiti-5.21.0/libs/activiti-spring-5.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/activemq-all-5.14.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-api-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-connector-basic-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-impl-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-spi-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-transport-file-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-transport-http-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-transport-wagon-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aether-util-1.0.0.v20140518.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/ant-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/ant-launcher-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/antlr-runtime-3.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/avalon-framework-api-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/avalon-framework-impl-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/axis.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-anim-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-awt-util-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-bridge-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-codec-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-css-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-dom-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-ext-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-gvt-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-js-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-parser-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-script-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-svg-dom-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-svggen-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-transcoder-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-util-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/batik-xml-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/cdi-api-1.0-SP4.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-email-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/custom-rules-deployer-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/dcharts-widget-0.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-beliefs-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-compiler-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-core-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-decisiontables-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-jsr94-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-persistence-jpa-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-pmml-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-reteoo-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-scorecards-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-templates-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/drools-verifier-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/fop-0.94.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/groovy-all-2.4.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/guava-13.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/gwt-servlet-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/h2-1.3.176.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/httpclient-4.3.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/httpcore-4.3.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/imgscalr-lib-4.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/itext-2.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jackson-annotations-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jackson-databind-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/javaGeom-0.11.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/javax.mail-1.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jaxb-core-2.2.11.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jaxb-impl-2.2.11.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jcl-over-slf4j-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jersey-bundle-1.19.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jgraphx-1.10.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/joda-time-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jsr94-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/kie-api-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/kie-ci-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/kie-internal-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/knowledge-api-6.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-aether-provider-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-artifact-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-compat-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-core-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-model-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-model-builder-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-plugin-api-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-repository-metadata-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-settings-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/maven-settings-builder-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/mvel2-2.2.8.Final.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/mybatis-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/org.eclipse.sisu.inject-0.3.0.M1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/org.eclipse.sisu.plexus-0.3.0.M1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/plexus-cipher-1.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/plexus-classworlds-2.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/plexus-interpolation-1.21.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/plexus-sec-dispatcher-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/plexus-utils-3.0.20.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/poi-3.13.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/poi-ooxml-3.13.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/poi-ooxml-schemas-3.13.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/protobuf-java-2.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/sisu-guice-3.2.3-no_aop.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/slf4j-log4j12-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-aop-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-beans-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-context-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-core-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-expression-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-jdbc-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-orm-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-security-config-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-security-core-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-security-crypto-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-security-web-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-tx-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-web-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/spring-webmvc-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/vaadin-6.8.8.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/wagon-http-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/wagon-http-shared-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/wagon-provider-api-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xmlgraphics-commons-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="/home/lars/apache-activemq-5.14.1/activemq-all-5.14.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

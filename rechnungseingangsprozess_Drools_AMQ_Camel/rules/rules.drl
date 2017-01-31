@@ -1,0 +1,42 @@
+//created on: 16.12.2016
+package invoiceRules
+
+//list any import classes here.
+import edu.thi.iis.invoiceModel.Decision;
+import edu.thi.iis.invoiceModel.Invoice;
+import edu.thi.iis.invoiceModel.ResponsiblePerson;
+
+
+rule "SelectPerson1"
+
+    when
+        $s : Decision(invoice.value > 10000)
+    then
+        $s.getRp().setValue("Top-Manager");
+        //EnumXY(this = ("Top-Manager"));
+        //$s.getInvoice().setValue(0);
+        //update($s);
+
+end
+
+rule "SelectPerson2"
+
+    when
+        $s : Decision(invoice.value > 1000, invoice.value < 10000)
+    then
+        $s.getRp().setValue("Manager");
+        //$s.getInvoice().setValue(0);
+        //update($s);
+
+end
+
+rule "SelectPerson3"
+
+    when
+        $s : Decision(invoice.value < 1000)
+    then
+        $s.getRp().setValue("Mitarbeiter");
+        //$s.getInvoice().setValue(0);
+        //update($s);
+
+end
