@@ -250,5 +250,7 @@
 	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xpp3_min-1.1.4c.jar"/>
 	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/xstream-1.4.7.jar"/>
 	<classpathentry kind="lib" path="/home/lars/apache-activemq-5.14.1/activemq-all-5.14.1.jar"/>
+	<classpathentry kind="lib" path="/home/lars/Eclipse/JEE-Neon-R-Java/eclipse/plugins/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="/home/lars/Eclipse/JEE-Neon-R-Java/eclipse/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

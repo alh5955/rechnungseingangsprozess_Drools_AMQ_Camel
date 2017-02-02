@@ -36,16 +36,18 @@ public class InvoiceSender implements JavaDelegate {
         Destination destination;
         String invoiceValue = (String) execution.getVariable("value");
         String invoiceSupplier = (String) execution.getVariable("supplier");
-        String invoiceDate = (String) execution.getVariable("date");
-        String invoiceIban = (String) execution.getVariable("iban");
-        String invoiceBic = (String) execution.getVariable("bic");
+        String invoiceDate = (String) execution.getVariable("invoiceDate");
+        String invoiceId = (String) execution.getVariable("externalId");
+        //String invoiceIban = (String) execution.getVariable("iban");
+        //String invoiceBic = (String) execution.getVariable("bic");
         
         Map<String, Object> data = new HashMap<>();
         data.put("invoiceValue", invoiceValue);
         data.put("invoiceSupplier", invoiceSupplier);
         data.put("invoiceDate", invoiceDate);
-        data.put("invoiceIban", invoiceIban);
-        data.put("invoiceBic", invoiceBic);
+        data.put("invoiceId", invoiceId);
+        //data.put("invoiceIban", invoiceIban);
+        //data.put("invoiceBic", invoiceBic);
         
         /*Invoice in = new Invoice();
         long inValue = Long.valueOf(invoiceValue).longValue();
@@ -56,7 +58,7 @@ public class InvoiceSender implements JavaDelegate {
         in.setInvoiceDate(inDate);
         in.setSupplier(invoiceSupplier);*/
     
-        System.out.println(invoiceValue);
+        //System.out.println(invoiceValue);
         
         //CreateInvoiceXml ixml = new CreateInvoiceXml();
         //ixml.InvoiceToXml(textMessage);
@@ -83,13 +85,16 @@ public class InvoiceSender implements JavaDelegate {
             in.setSupplier(invoiceSupplier);
             
             ObjectMessage message = session.createObjectMessage();*/
+            
             MapMessage message = session.createMapMessage();
             message.setString("Rechnungsbetrag", invoiceValue);
             message.setString("Lieferant", invoiceSupplier);
             message.setString("Datum", invoiceDate);
-            message.setString("IBAN", invoiceIban);
-            message.setString("BIC", invoiceBic);
-            //TextMessage message = session.createTextMessage(textMessage);
+            message.setString("ID", invoiceId);
+            
+            //message.setString("IBAN", invoiceIban);
+            //message.setString("BIC", invoiceBic);
+            //TextMessage message = session.createTextMessage(invoiceValue);
             //message.setObject(in);
             producer.send(message);
             connection.close();
@@ -99,7 +104,7 @@ public class InvoiceSender implements JavaDelegate {
             System.out.println(ex.getMessage());
         }
         
-        RuntimeService runtimeService = execution.getEngineServices().getRuntimeService();
+        /*RuntimeService runtimeService = execution.getEngineServices().getRuntimeService();
         
         // Search if a process is already waiting at an intermediate event
         Execution waitingExecution = runtimeService.createExecutionQuery()
@@ -113,8 +118,7 @@ public class InvoiceSender implements JavaDelegate {
         } else {
             // No execution is waiting --> start a new Aggregator instance
             runtimeService.startProcessInstanceByMessage("NewOrderMessage", data);
-        }
+        }*/
     }
 
 }
-
