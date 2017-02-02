@@ -16,7 +16,7 @@ public class Invoice  implements java.io.Serializable {
 
     private java.lang.String invoiceSupplier;
 
-    private double invoiceValue;
+    private java.lang.String invoiceValue;
 
     public Invoice() {
     }
@@ -26,7 +26,7 @@ public class Invoice  implements java.io.Serializable {
            java.lang.String invoiceExternalId,
            java.lang.Long invoiceId,
            java.lang.String invoiceSupplier,
-           double invoiceValue) {
+           java.lang.String invoiceValue) {
            this.invoiceDate = invoiceDate;
            this.invoiceExternalId = invoiceExternalId;
            this.invoiceId = invoiceId;
@@ -120,7 +120,7 @@ public class Invoice  implements java.io.Serializable {
      * 
      * @return invoiceValue
      */
-    public double getInvoiceValue() {
+    public java.lang.String getInvoiceValue() {
         return invoiceValue;
     }
 
@@ -130,7 +130,7 @@ public class Invoice  implements java.io.Serializable {
      * 
      * @param invoiceValue
      */
-    public void setInvoiceValue(double invoiceValue) {
+    public void setInvoiceValue(java.lang.String invoiceValue) {
         this.invoiceValue = invoiceValue;
     }
 

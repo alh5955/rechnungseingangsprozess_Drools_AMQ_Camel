@@ -252,5 +252,14 @@
 	<classpathentry kind="lib" path="/home/lars/apache-activemq-5.14.1/activemq-all-5.14.1.jar"/>
 	<classpathentry kind="lib" path="/home/lars/Eclipse/JEE-Neon-R-Java/eclipse/plugins/javax.wsdl_1.6.2.v201012040545.jar"/>
 	<classpathentry kind="lib" path="/home/lars/Eclipse/JEE-Neon-R-Java/eclipse/plugins/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/aggregator.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/InvoiceReceiverProcess.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/InvoiceReceiverTest.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/InvoiceSenderProcess.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/partyplanning.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/RechnungErfassen.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/RechnungErzeugenTest.jar"/>
+	<classpathentry kind="lib" path="/home/lars/glassfish4/glassfish/domains/domain1/applications/activiti-explorer/WEB-INF/lib/SenderProcess.jar"/>
+	<classpathentry kind="lib" path="/home/lars/Downloads/TutorialREST(1)/Prozess/jersey-bundle-1.19.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

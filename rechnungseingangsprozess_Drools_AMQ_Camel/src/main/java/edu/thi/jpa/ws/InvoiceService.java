@@ -8,5 +8,7 @@
 package edu.thi.jpa.ws;
 
 public interface InvoiceService extends java.rmi.Remote {
-    public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, double arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException;
+    
+    public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, String value, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException;
+    //public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, double arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException;
 }

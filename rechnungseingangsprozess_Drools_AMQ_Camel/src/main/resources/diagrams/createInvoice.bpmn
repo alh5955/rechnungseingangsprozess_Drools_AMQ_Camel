@@ -5,7 +5,7 @@
     <userTask id="usertask1" name="Rechnungspositionen" activiti:assignee="fozzie">
       <extensionElements>
         <activiti:formProperty id="supplier" name="Lieferant" type="string" required="true"></activiti:formProperty>
-        <activiti:formProperty id="value" name="Rechnungsbetrag" type="string" required="true"></activiti:formProperty>
+        <activiti:formProperty id="value" name="Rechnungsbetrag" type="double" required="true"></activiti:formProperty>
         <activiti:formProperty id="date" name="Datum (yyyy-mm-dd)" type="string" required="true"></activiti:formProperty>
         <activiti:formProperty id="externalId" name="Lieferanten ID" type="string" required="true"></activiti:formProperty>
       </extensionElements>

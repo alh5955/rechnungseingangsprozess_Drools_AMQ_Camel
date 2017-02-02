@@ -7,6 +7,8 @@
 
 package edu.thi.jpa.ws;
 
+import java.rmi.RemoteException;
+
 public class InvoiceServicePortBindingStub extends org.apache.axis.client.Stub implements edu.thi.jpa.ws.InvoiceService {
     private java.util.Vector cachedSerClasses = new java.util.Vector();
     private java.util.Vector cachedSerQNames = new java.util.Vector();
@@ -147,7 +149,7 @@ public class InvoiceServicePortBindingStub extends org.apache.axis.client.Stub i
         }
     }
 
-    public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, double arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException {
+ /*   public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, double arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -164,6 +166,40 @@ public class InvoiceServicePortBindingStub extends org.apache.axis.client.Stub i
         setRequestHeaders(_call);
         setAttachments(_call);
  try {        java.lang.Object _resp = _call.invoke(new java.lang.Object[] {arg0, new java.lang.Double(arg1), arg2, arg3});
+
+        if (_resp instanceof java.rmi.RemoteException) {
+            throw (java.rmi.RemoteException)_resp;
+        }
+        else {
+            extractAttachments(_call);
+            try {
+                return (edu.thi.jpa.ws.Invoice) _resp;
+            } catch (java.lang.Exception _exception) {
+                return (edu.thi.jpa.ws.Invoice) org.apache.axis.utils.JavaUtils.convert(_resp, edu.thi.jpa.ws.Invoice.class);
+            }
+        }
+  } catch (org.apache.axis.AxisFault axisFaultException) {
+  throw axisFaultException;
+}
+    }*/
+    
+    public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException {
+        if (super.cachedEndpoint == null) {
+            throw new org.apache.axis.NoEndPointException();
+        }
+        org.apache.axis.client.Call _call = createCall();
+        _call.setOperation(_operations[0]);
+        _call.setUseSOAPAction(true);
+        _call.setSOAPActionURI("");
+        _call.setEncodingStyle(null);
+        _call.setProperty(org.apache.axis.client.Call.SEND_TYPE_ATTR, Boolean.FALSE);
+        _call.setProperty(org.apache.axis.AxisEngine.PROP_DOMULTIREFS, Boolean.FALSE);
+        _call.setSOAPVersion(org.apache.axis.soap.SOAPConstants.SOAP11_CONSTANTS);
+        _call.setOperationName(new javax.xml.namespace.QName("http://ws.jpa.thi.edu/", "createInvoice"));
+
+        setRequestHeaders(_call);
+        setAttachments(_call);
+ try {        java.lang.Object _resp = _call.invoke(new java.lang.Object[] {arg0, arg1, arg2, arg3});
 
         if (_resp instanceof java.rmi.RemoteException) {
             throw (java.rmi.RemoteException)_resp;

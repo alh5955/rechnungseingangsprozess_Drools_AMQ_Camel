@@ -12,7 +12,7 @@ public class CallCreateInvoiceWS implements JavaDelegate {
     @Override
     public void execute(DelegateExecution execution) throws Exception {
         String supplier = (String) execution.getVariable("supplier");
-        Double value = (Double) execution.getVariable("value");
+        String value = (String) execution.getVariable("value");
         String date = (String) execution.getVariable("date");
         String externalId = (String) execution.getVariable("externalId");
         
