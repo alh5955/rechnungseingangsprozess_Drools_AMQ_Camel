@@ -44,17 +44,11 @@ public class InvoiceServiceProxy implements edu.thi.jpa.ws.InvoiceService {
     return invoiceService;
   }
   
-  /*public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, double arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException{
+  public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException{
     if (invoiceService == null)
       _initInvoiceServiceProxy();
     return invoiceService.createInvoice(arg0, arg1, arg2, arg3);
-  }*/
-  
-  public edu.thi.jpa.ws.Invoice createInvoice(java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3) throws java.rmi.RemoteException{
-      if (invoiceService == null)
-        _initInvoiceServiceProxy();
-      return invoiceService.createInvoice(arg0, arg1, arg2, arg3);
-    }
+  }
   
   
 }

@@ -1,5 +1,4 @@
 package edu.thi.test;
-import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,18 +7,12 @@ import javax.jms.DeliveryMode;
 import javax.jms.Destination;
 import javax.jms.MapMessage;
 import javax.jms.MessageProducer;
-import javax.jms.ObjectMessage;
 import javax.jms.Session;
-import javax.jms.TextMessage;
 
-import org.activiti.engine.RuntimeService;
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
-import org.activiti.engine.runtime.Execution;
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
-
-import edu.thi.iis.modelInvoice.Invoice;
 
 /**
  * @author Alexander Hauke
@@ -36,25 +29,19 @@ public class InvoiceSender implements JavaDelegate {
         Destination destination;
         String invoiceValue = (String) execution.getVariable("value");
         String invoiceSupplier = (String) execution.getVariable("supplier");
-        String invoiceDate = (String) execution.getVariable("invoiceDate");
+        String invoiceDate = (String) execution.getVariable("date");
         String invoiceId = (String) execution.getVariable("externalId");
-        //String invoiceIban = (String) execution.getVariable("iban");
-        //String invoiceBic = (String) execution.getVariable("bic");
         
-        Map<String, Object> data = new HashMap<>();
+        Map<String, Object> data = new HashMap<String, Object>();
         data.put("invoiceValue", invoiceValue);
         data.put("invoiceSupplier", invoiceSupplier);
         data.put("invoiceDate", invoiceDate);
         data.put("invoiceId", invoiceId);
-        //data.put("invoiceIban", invoiceIban);
-        //data.put("invoiceBic", invoiceBic);
         
         /*Invoice in = new Invoice();
         long inValue = Long.valueOf(invoiceValue).longValue();
         LocalDate inDate = LocalDate.parse(invoiceDate);
         in.setValue(inValue);
-        in.setBic(invoiceBic);
-        in.setIban(invoiceIban);
         in.setInvoiceDate(inDate);
         in.setSupplier(invoiceSupplier);*/
     
@@ -79,8 +66,6 @@ public class InvoiceSender implements JavaDelegate {
             LocalDate inDate = LocalDate.parse(invoiceDate);
             Invoice in = new Invoice(inValue, invoiceSupplier, inDate, invoiceIban, invoiceBic);
             in.setValue(inValue);
-            in.setBic(invoiceBic);
-            in.setIban(invoiceIban);
             in.setInvoiceDate(inDate);
             in.setSupplier(invoiceSupplier);
             
@@ -92,11 +77,11 @@ public class InvoiceSender implements JavaDelegate {
             message.setString("Datum", invoiceDate);
             message.setString("ID", invoiceId);
             
-            //message.setString("IBAN", invoiceIban);
-            //message.setString("BIC", invoiceBic);
             //TextMessage message = session.createTextMessage(invoiceValue);
+            //TextMessage message2 = session.createTextMessage(invoiceSupplier);
             //message.setObject(in);
             producer.send(message);
+            //producer.send(message2);
             connection.close();
             
 

@@ -2,6 +2,8 @@ package edu.thi.test;
 
 import java.util.List;
 import java.util.Map;
+
+import edu.thi.iis.activemq.consumer.Variables;
 //import java.util.Map;
 
 /**
@@ -12,15 +14,15 @@ public class StartProcessParamsTest {
 
     private String message;
 
-    private Map<String, Object> mapVariables;
+    //private Map<String, Object> mapVariables;
 
-    private List<VariablesTest> variables;
+    private List<Variable> variables;
 
-    public List<VariablesTest> getVariables() {
+    public List<Variable> getVariables() {
         return variables;
     }
 
-    public void setVariables(List<VariablesTest> variables) {
+    public void setVariables(List<Variable> variables) {
         this.variables = variables;
     }
 
@@ -32,12 +34,12 @@ public class StartProcessParamsTest {
         this.message = message;
     }
 
-    public Map<String, Object> getMapVariables() {
-        return mapVariables;
-    }
+    //public Map<String, Object> getMapVariables() {
+    //    return mapVariables;
+    //}
 
-    public void setMapVariables(Map<String, Object> mapVariables) {
-        this.mapVariables = mapVariables;
-    }
+    //public void setMapVariables(Map<String, Object> mapVariables) {
+    //    this.mapVariables = mapVariables;
+    //}
 
 }

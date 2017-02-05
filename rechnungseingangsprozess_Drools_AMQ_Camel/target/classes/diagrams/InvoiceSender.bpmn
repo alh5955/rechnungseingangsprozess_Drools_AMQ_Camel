@@ -6,9 +6,8 @@
       <extensionElements>
         <activiti:formProperty id="value" name="Rechnungsbetrag" type="string" required="true"></activiti:formProperty>
         <activiti:formProperty id="supplier" name="Lieferant" type="string" required="true"></activiti:formProperty>
-        <activiti:formProperty id="date" name="Datum" type="string"></activiti:formProperty>
-        <activiti:formProperty id="iban" name="IBAN" type="string" required="true"></activiti:formProperty>
-        <activiti:formProperty id="bic" name="BIC" type="string"></activiti:formProperty>
+        <activiti:formProperty id="date" name="Datum" type="string" required="true"></activiti:formProperty>
+        <activiti:formProperty id="externalId" name="LieferantenID" type="string" required="true"></activiti:formProperty>
       </extensionElements>
     </userTask>
     <serviceTask id="servicetask1" name="Send Message Test" activiti:class="edu.thi.test.InvoiceSender"></serviceTask>

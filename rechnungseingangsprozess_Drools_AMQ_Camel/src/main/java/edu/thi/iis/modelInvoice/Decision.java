@@ -1,6 +1,8 @@
 package edu.thi.iis.modelInvoice;
 import java.io.Serializable;
 
+import edu.thi.iis.ws.InvoiceModelWS;
+
 /**
  * @author Alexander Hauke
  */
@@ -8,19 +10,23 @@ import java.io.Serializable;
 public class Decision implements Serializable{
 
     private static final long serialVersionUID = 1L;
-    private Invoice invoice;
-    private ResponsiblePerson rp;
+//    private Invoice invoice;
+//    private ResponsiblePerson rp;
+    private InvoiceModelWS invoice;
     
-    public Invoice getInvoice() {
+    
+    public InvoiceModelWS getInvoice() {
         return invoice;
     }
-    public void setInvoice(Invoice invoice) {
+    public void setInvoice(InvoiceModelWS invoice) {
         this.invoice = invoice;
     }
-    public ResponsiblePerson getRp() {
-        return rp;
-    }
-    public void setRp(ResponsiblePerson rp) {
-        this.rp = rp;
-    }
+    
+    
+//    public ResponsiblePerson getRp() {
+//        return rp;
+//    }
+//    public void setRp(ResponsiblePerson rp) {
+//        this.rp = rp;
+//    }
 }

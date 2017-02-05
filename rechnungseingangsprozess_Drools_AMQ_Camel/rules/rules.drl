@@ -2,17 +2,19 @@
 package invoiceRules
 
 //list any import classes here.
-import edu.thi.iis.invoiceModel.Decision;
-import edu.thi.iis.invoiceModel.Invoice;
-import edu.thi.iis.invoiceModel.ResponsiblePerson;
+import edu.thi.iis.modelInvoice.Decision;
+//import edu.thi.iis.invoiceModel.Invoice;
+//import edu.thi.iis.invoiceModel.ResponsiblePerson;
+import edu.thi.iis.ws.InvoiceModelWS;
 
 
 rule "SelectPerson1"
 
     when
-        $s : Decision(invoice.value > 10000)
+        $s : Decision(Double.valueOf(invoice.getValue()) > 10000.00)
     then
-        $s.getRp().setValue("Top-Manager");
+    	$s.getInvoice().setApproverWorkingPosition("TOPMANAGER");
+        //$s.getRp().setValue("Top-Manager");
         //EnumXY(this = ("Top-Manager"));
         //$s.getInvoice().setValue(0);
         //update($s);
@@ -22,9 +24,11 @@ end
 rule "SelectPerson2"
 
     when
-        $s : Decision(invoice.value > 1000, invoice.value < 10000)
+        $s : Decision(Double.valueOf(invoice.getValue()) > 1000.00, Double.valueOf(invoice.getValue()) < 10000.00)
     then
-        $s.getRp().setValue("Manager");
+    
+    $s.getInvoice().setApproverWorkingPosition("MANAGER");
+        //$s.getRp().setValue("Manager");
         //$s.getInvoice().setValue(0);
         //update($s);
 
@@ -33,9 +37,10 @@ end
 rule "SelectPerson3"
 
     when
-        $s : Decision(invoice.value < 1000)
+        $s : Decision(Double.valueOf(invoice.getValue()) < 1000.00)
     then
-        $s.getRp().setValue("Mitarbeiter");
+    	$s.getInvoice().setApproverWorkingPosition("EMPLOYEE");
+        //$s.getRp().setValue("Mitarbeiter");
         //$s.getInvoice().setValue(0);
         //update($s);
 

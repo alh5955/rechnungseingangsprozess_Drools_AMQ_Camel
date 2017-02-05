@@ -54,8 +54,9 @@ public class CallCreateInvoiceRest implements JavaDelegate {
         Client client = Client.create();
 
         WebResource webResource = client
-           .resource("http://localhost:8080/restApp/webapi/orders");
-        String input = "{\"supplier\":\""+ supplier +"\",\"value\":\""+value+"\",\"date\":"+date+",\"externalId\":"+externalId+"}";
+           .resource("http://localhost:8080/restApp/webapi/invoice");
+        String input = "{\"supplier\":\""+ supplier +"\",\"value\":\""+ value +"\",\"date\":\""+date+"\",\"externalId\":\""+externalId+"\"}";
+        System.out.println(input);
         ClientResponse response = webResource.type("application/json")
            .post(ClientResponse.class, input);
         if (response.getStatus() != 200) {

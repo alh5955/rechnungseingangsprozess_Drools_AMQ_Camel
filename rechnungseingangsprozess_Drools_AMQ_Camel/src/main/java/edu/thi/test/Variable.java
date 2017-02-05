@@ -1,13 +1,8 @@
 package edu.thi.test;
 
-/**
- * @author Alexander Hauke
- */
-
-public class VariablesTest {
-    String name;
-    Object value;
-  
+public class Variable {
+    private String name;
+    private Object value;
     
     public String getName() {
         return name;
@@ -21,5 +16,4 @@ public class VariablesTest {
     public void setValue(Object value) {
         this.value = value;
     }
-
 }

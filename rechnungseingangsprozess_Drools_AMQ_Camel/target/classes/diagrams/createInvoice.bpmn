@@ -5,14 +5,13 @@
     <userTask id="usertask1" name="Rechnungspositionen" activiti:assignee="fozzie">
       <extensionElements>
         <activiti:formProperty id="supplier" name="Lieferant" type="string" required="true"></activiti:formProperty>
-        <activiti:formProperty id="value" name="Rechnungsbetrag" type="double" required="true"></activiti:formProperty>
+        <activiti:formProperty id="value" name="Rechnungsbetrag" type="string" required="true"></activiti:formProperty>
         <activiti:formProperty id="date" name="Datum (yyyy-mm-dd)" type="string" required="true"></activiti:formProperty>
         <activiti:formProperty id="externalId" name="Lieferanten ID" type="string" required="true"></activiti:formProperty>
       </extensionElements>
     </userTask>
     <userTask id="usertask2" name="Erstellung prüfen" activiti:assignee="fozzie">
       <extensionElements>
-        <activiti:formProperty id="invoiceId" name="Invoice ID" expression="${invoiceId}" writable="false"></activiti:formProperty>
         <activiti:formProperty id="supplier" name="Lieferant" expression="${supplier}" writable="false"></activiti:formProperty>
         <activiti:formProperty id="value" name="Rechnungsbetrag" expression="${value}" writable="false"></activiti:formProperty>
         <activiti:formProperty id="date" name="Datum (yyyy-mm-dd)" expression="${date}" writable="false"></activiti:formProperty>
@@ -20,11 +19,13 @@
       </extensionElements>
     </userTask>
     <serviceTask id="servicetask1" name="Rechnung erstellen" activiti:class="edu.thi.java.servicetask.CallCreateInvoiceWS"></serviceTask>
-    <endEvent id="endevent1" name="End"></endEvent>
     <sequenceFlow id="flow1" sourceRef="startevent1" targetRef="usertask1"></sequenceFlow>
     <sequenceFlow id="flow2" sourceRef="usertask1" targetRef="servicetask1"></sequenceFlow>
     <sequenceFlow id="flow3" sourceRef="servicetask1" targetRef="usertask2"></sequenceFlow>
-    <sequenceFlow id="flow4" sourceRef="usertask2" targetRef="endevent1"></sequenceFlow>
+    <serviceTask id="servicetask2" name="Service Task" activiti:class="edu.thi.test.InvoiceSender"></serviceTask>
+    <endEvent id="endevent1" name="End"></endEvent>
+    <sequenceFlow id="flow4" sourceRef="usertask2" targetRef="servicetask2"></sequenceFlow>
+    <sequenceFlow id="flow5" sourceRef="servicetask2" targetRef="endevent1"></sequenceFlow>
   </process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_createInvoiceProzess">
     <bpmndi:BPMNPlane bpmnElement="createInvoiceProzess" id="BPMNPlane_createInvoiceProzess">
@@ -40,8 +41,11 @@
       <bpmndi:BPMNShape bpmnElement="servicetask1" id="BPMNShape_servicetask1">
         <omgdc:Bounds height="55.0" width="105.0" x="310.0" y="190.0"></omgdc:Bounds>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="servicetask2" id="BPMNShape_servicetask2">
+        <omgdc:Bounds height="55.0" width="105.0" x="620.0" y="190.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="endevent1" id="BPMNShape_endevent1">
-        <omgdc:Bounds height="35.0" width="35.0" x="610.0" y="200.0"></omgdc:Bounds>
+        <omgdc:Bounds height="35.0" width="35.0" x="780.0" y="200.0"></omgdc:Bounds>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
         <omgdi:waypoint x="95.0" y="217.0"></omgdi:waypoint>
@@ -57,7 +61,11 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
         <omgdi:waypoint x="565.0" y="217.0"></omgdi:waypoint>
-        <omgdi:waypoint x="610.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="620.0" y="217.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5">
+        <omgdi:waypoint x="725.0" y="217.0"></omgdi:waypoint>
+        <omgdi:waypoint x="780.0" y="217.0"></omgdi:waypoint>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

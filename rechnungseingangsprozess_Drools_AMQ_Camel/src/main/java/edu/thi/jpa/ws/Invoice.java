@@ -158,7 +158,9 @@ public class Invoice  implements java.io.Serializable {
             ((this.invoiceSupplier==null && other.getInvoiceSupplier()==null) || 
              (this.invoiceSupplier!=null &&
               this.invoiceSupplier.equals(other.getInvoiceSupplier()))) &&
-            this.invoiceValue == other.getInvoiceValue();
+            ((this.invoiceValue==null && other.getInvoiceValue()==null) || 
+             (this.invoiceValue!=null &&
+              this.invoiceValue.equals(other.getInvoiceValue())));
         __equalsCalc = null;
         return _equals;
     }
@@ -182,7 +184,9 @@ public class Invoice  implements java.io.Serializable {
         if (getInvoiceSupplier() != null) {
             _hashCode += getInvoiceSupplier().hashCode();
         }
-        _hashCode += new Double(getInvoiceValue()).hashCode();
+        if (getInvoiceValue() != null) {
+            _hashCode += getInvoiceValue().hashCode();
+        }
         __hashCodeCalc = false;
         return _hashCode;
     }
@@ -224,7 +228,8 @@ public class Invoice  implements java.io.Serializable {
         elemField = new org.apache.axis.description.ElementDesc();
         elemField.setFieldName("invoiceValue");
         elemField.setXmlName(new javax.xml.namespace.QName("", "invoiceValue"));
-        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
         elemField.setNillable(false);
         typeDesc.addFieldDesc(elemField);
     }
